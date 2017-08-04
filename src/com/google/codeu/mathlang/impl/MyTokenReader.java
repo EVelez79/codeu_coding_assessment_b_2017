@@ -130,9 +130,6 @@ public final class MyTokenReader implements TokenReader {
             return stringToken;
         }
       }
-
-      StringToken fallThrough = new StringToken(token);
-      return fallThrough;
   }
 
   private boolean checkIfLetter(String token) {
